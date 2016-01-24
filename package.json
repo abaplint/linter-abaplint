@@ -1,0 +1,60 @@
+{
+  "name": "linter-abaplint",
+  "version": "0.1.0",
+  "description": "Atom linter plugin for ABAP, using abaplint",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larshp/linter-abaplint.git"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "scripts": {
+    "test": "eslint ."
+  },
+  "keywords": [
+    "abap"
+  ],
+  "author": "Lars Hvam Petersen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/larshp/linter-abaplint/issues"
+  },
+  "homepage": "https://github.com/larshp/linter-abaplint#readme",
+  "dependencies": {
+    "abaplint": "0.0.13",
+    "atom-linter": "^4.3.4",
+    "atom-package-deps": "^3.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "babel-eslint": "^4.1.5",
+    "eslint-config-airbnb": "^3.0.2"
+  },
+  "eslintConfig": {
+    "rules": {
+      "comma-dangle": [
+        2,
+        "never"
+      ],
+      "no-console": 0
+    },
+    "extends": "airbnb/base",
+    "parser": "babel-eslint",
+    "globals": {
+      "atom": true
+    },
+    "env": {
+      "es6": true,
+      "node": true
+    }
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}

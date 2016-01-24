@@ -28,7 +28,8 @@
     "atom-package-deps": "^3.0.7"
   },
   "package-deps": [
-    "linter"
+    "linter",
+    "language-abap"
   ],
   "devDependencies": {
     "eslint": "^1.10.3",

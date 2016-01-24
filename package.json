@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/larshp/linter-abaplint#readme",
   "dependencies": {
-    "abaplint": "0.0.13",
+    "abaplint": "0.0.14",
     "atom-linter": "^4.3.4",
     "atom-package-deps": "^3.0.7"
   },

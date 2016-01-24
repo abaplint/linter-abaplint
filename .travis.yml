@@ -10,7 +10,6 @@ sudo: false
 
 os:
   - linux
-  - osx
 
 env:
   global:
@@ -18,7 +17,6 @@ env:
 
   matrix:
     - ATOM_CHANNEL=stable
-    - ATOM_CHANNEL=beta
 
 addons:
   apt:

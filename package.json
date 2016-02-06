@@ -24,7 +24,7 @@
   "homepage": "https://github.com/larshp/linter-abaplint#readme",
   "dependencies": {
     "abaplint": ">=0.0.17",
-    "atom-linter": "^4.3.4",
+    "atom-linter": "^4.4.0",
     "atom-package-deps": "^3.0.7"
   },
   "package-deps": [
@@ -33,21 +33,18 @@
   ],
   "devDependencies": {
     "eslint": "^1.10.3",
-    "babel-eslint": "^4.1.5",
-    "eslint-config-airbnb": "^3.0.2"
+    "babel-eslint": "^4.1.8",
+    "eslint-config-airbnb": "^5.0.0"
   },
   "eslintConfig": {
-    "rules": {
-      "comma-dangle": [
-        2,
-        "never"
-      ],
-      "no-console": 0
-    },
     "extends": "airbnb/base",
     "parser": "babel-eslint",
     "globals": {
-      "atom": true
+      "atom": true,
+      "waitsForPromise": true
+    },
+    "rules": {
+      "arrow-body-style": 0
     },
     "env": {
       "es6": true,

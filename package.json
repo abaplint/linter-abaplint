@@ -24,7 +24,7 @@
   "homepage": "https://github.com/larshp/linter-abaplint#readme",
   "dependencies": {
     "abaplint": "^0.24.1",
-    "atom-linter": "^4.7.0",
+    "atom-linter": "^5.0.1",
     "atom-package-deps": "^4.0.1"
   },
   "package-deps": [
@@ -32,10 +32,10 @@
     "language-abap"
   ],
   "devDependencies": {
-    "babel-eslint": "^6.0.3",
-    "eslint": "^2.8.0",
-    "eslint-config-airbnb": "^8.0.0",
-    "eslint-plugin-import": "^1.5.0",
+    "babel-eslint": "^6.0.4",
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.7.0",
     "eslint-plugin-react": "^5.0.1"
   },
   "eslintConfig": {

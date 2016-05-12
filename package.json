@@ -24,7 +24,6 @@
   "homepage": "https://github.com/larshp/linter-abaplint#readme",
   "dependencies": {
     "abaplint": "^0.25.0",
-    "atom-linter": "^5.0.1",
     "atom-package-deps": "^4.0.1"
   },
   "package-deps": [
@@ -36,7 +35,8 @@
     "eslint": "^2.9.0",
     "eslint-config-airbnb": "^9.0.1",
     "eslint-plugin-import": "^1.7.0",
-    "eslint-plugin-react": "^5.0.1"
+    "eslint-plugin-react": "^5.0.1",
+    "typings": "^0.8.1"
   },
   "eslintConfig": {
     "extends": "airbnb/base",

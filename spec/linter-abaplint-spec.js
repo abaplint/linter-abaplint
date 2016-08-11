@@ -2,9 +2,10 @@
 /* eslint-env jasmine */
 
 import * as path from 'path';
+import { provideLinter } from '../lib/index';
 
 describe('The abaplint provider for Linter', () => {
-  const lint = require(path.join('..', 'lib', 'index.js')).provideLinter().lint;
+  const lint = provideLinter().lint;
 
   beforeEach(() => {
     atom.workspace.destroyActivePaneItem();

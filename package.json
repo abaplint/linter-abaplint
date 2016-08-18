@@ -1,6 +1,6 @@
 {
   "name": "linter-abaplint",
-  "version": "0.9.0",
+  "version": "0.10.0",
   "description": "Atom linter plugin for ABAP, using abaplint",
   "main": "lib/index.js",
   "repository": {

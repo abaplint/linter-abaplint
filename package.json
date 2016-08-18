@@ -46,6 +46,8 @@
     },
     "rules": {
       "arrow-body-style": 0,
+      "prefer-template": 0,
+      "no-restricted-syntax": 0,
       "global-require": 0
     },
     "env": {

@@ -1,3 +1,5 @@
+Currently not maintained, pull requests and maintainers welcome
+
 [![Build Status](https://travis-ci.org/larshp/linter-abaplint.svg?branch=master)](https://travis-ci.org/larshp/linter-abaplint)
 [![Dependency Status](https://david-dm.org/larshp/linter-abaplint.svg)](https://david-dm.org/larshp/linter-abaplint)
 

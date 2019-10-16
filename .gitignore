@@ -1,4 +1,4 @@
-package-lock.json
 npm-debug.log
 atom.deb
 build-package.sh
+node_modules
